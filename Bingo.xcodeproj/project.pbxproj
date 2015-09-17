@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A8B9AC51BA501CB00B08509 /* spratuun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A8B9AC41BA501CB00B08509 /* spratuun.png */; };
 		2A8C42FC1BA4ECDC005F05A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C42FB1BA4ECDC005F05A1 /* AppDelegate.swift */; };
 		2A8C42FE1BA4ECDC005F05A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C42FD1BA4ECDC005F05A1 /* ViewController.swift */; };
 		2A8C43011BA4ECDC005F05A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C42FF1BA4ECDC005F05A1 /* Main.storyboard */; };
 		2A8C43031BA4ECDC005F05A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C43021BA4ECDC005F05A1 /* Images.xcassets */; };
 		2A8C43061BA4ECDC005F05A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C43041BA4ECDC005F05A1 /* LaunchScreen.xib */; };
 		2A8C43121BA4ECDC005F05A1 /* BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C43111BA4ECDC005F05A1 /* BingoTests.swift */; };
+		2A8C431C1BA4EDCA005F05A1 /* ikamodoki1_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C431B1BA4EDC5005F05A1 /* ikamodoki1_0.ttf */; };
+		2A8C431E1BA4EE79005F05A1 /* summer2015_dekstop_orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C431D1BA4EE79005F05A1 /* summer2015_dekstop_orange.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A8B9AC41BA501CB00B08509 /* spratuun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spratuun.png; sourceTree = "<group>"; };
 		2A8C42F61BA4ECDC005F05A1 /* Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8C42FA1BA4ECDC005F05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8C42FB1BA4ECDC005F05A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		2A8C430B1BA4ECDC005F05A1 /* BingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8C43101BA4ECDC005F05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8C43111BA4ECDC005F05A1 /* BingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoTests.swift; sourceTree = "<group>"; };
+		2A8C431B1BA4EDC5005F05A1 /* ikamodoki1_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ikamodoki1_0.ttf; sourceTree = "<group>"; };
+		2A8C431D1BA4EE79005F05A1 /* summer2015_dekstop_orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer2015_dekstop_orange.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				2A8C42FB1BA4ECDC005F05A1 /* AppDelegate.swift */,
 				2A8C42FD1BA4ECDC005F05A1 /* ViewController.swift */,
+				2A8C431B1BA4EDC5005F05A1 /* ikamodoki1_0.ttf */,
+				2A8C431D1BA4EE79005F05A1 /* summer2015_dekstop_orange.jpg */,
+				2A8B9AC41BA501CB00B08509 /* spratuun.png */,
 				2A8C42FF1BA4ECDC005F05A1 /* Main.storyboard */,
 				2A8C43021BA4ECDC005F05A1 /* Images.xcassets */,
 				2A8C43041BA4ECDC005F05A1 /* LaunchScreen.xib */,
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8C431C1BA4EDCA005F05A1 /* ikamodoki1_0.ttf in Resources */,
 				2A8C43011BA4ECDC005F05A1 /* Main.storyboard in Resources */,
+				2A8C431E1BA4EE79005F05A1 /* summer2015_dekstop_orange.jpg in Resources */,
 				2A8C43061BA4ECDC005F05A1 /* LaunchScreen.xib in Resources */,
 				2A8C43031BA4ECDC005F05A1 /* Images.xcassets in Resources */,
+				2A8B9AC51BA501CB00B08509 /* spratuun.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				2A8C43171BA4ECDC005F05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8C43181BA4ECDC005F05A1 /* Build configuration list for PBXNativeTarget "BingoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				2A8C431A1BA4ECDC005F05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
